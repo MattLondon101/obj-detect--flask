@@ -6,7 +6,7 @@ Flask web app for object recognition.
 
 Labels: 'airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship'
 
-In Linux Bash enter
+In Linux Bash cd to mlweb3dir and enter
 ```
 export FLASK_APP=mlweb3
 export FLASK_ENV=development
