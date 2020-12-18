@@ -66,4 +66,4 @@ def prediction(filename):
     #Step 5
     return render_template('predict.html', predictions=predictions)
 
-app.run(host='0.0.0.1', port=80)
+app.run(host='127.0.0.1', port=5000)
