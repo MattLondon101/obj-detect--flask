@@ -4,6 +4,8 @@
 
 Flask web app for object recognition.
 
+Dependencies: keras, tensorflow
+
 Labels: 'airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship'
 
 In Linux Bash:
