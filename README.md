@@ -1,22 +1,31 @@
 # mlweb3
 
-**Object Recognition Web App**
+**This app exhibits the high accuracy and reliability of the Sequential Model CNN deployed as a web app with Flask and Python**  
 
-Flask web app for object recognition.
+Dependencies: 
+keras==2.3.1  
+tensorflow==1.14.0  
+scikit-image==0.17.2  
+h5py==2.10.0  
 
-Dependencies: keras, tensorflow
 
-Labels: 'airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship'
+Directions:  
+Create an empty directory called uploads in mlweb3.    
+Current Labels are: 'airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship'  
+Place images of these kinds into mlweb3/uploads.  
 
-In Linux Bash:
+In Linux Bash:  
 ```
 cd mlweb3
-export FLASK_APP=path_to/mlweb3/__init__.py
+export FLASK_APP=mlweb3
 export FLASK_ENV=development
 flask run
 ```
 
-Output will direct you to URL. Likely http://127.0.0.1:5000/, your loopback network interface.
+Output will direct you to localhost http://127.0.0.1:5000/  
+
+Browse to mlweb3/uploads and upload your image.  
+The algorithm will classify the image as one of the labels with ~90% confidence.  
 
 
 Trained via Sequential Model CNN with [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).<br />
