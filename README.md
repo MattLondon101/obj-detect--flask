@@ -9,7 +9,7 @@ Labels: 'airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse',
 In Linux Bash:
 ```
 cd mlweb3
-export FLASK_APP=mlweb3
+export FLASK_APP=path_to/mlweb3/__init__.py
 export FLASK_ENV=development
 flask run
 ```
