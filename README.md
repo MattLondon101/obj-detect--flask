@@ -2,7 +2,7 @@
 
 **This app exhibits the high accuracy and reliability of the Sequential Model CNN deployed as a web app with Flask and Python**  
 
-Dependencies: 
+Dependencies:  
 keras==2.3.1  
 tensorflow==1.14.0  
 scikit-image==0.17.2  
