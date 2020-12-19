@@ -17,7 +17,7 @@ Place images of these kinds into mlweb3/uploads.
 In Linux Bash:  
 ```
 cd Flask-ML-Web-App
-export FLASK_APP=mlweb3
+export FLASK_APP=path_to/Flask-ML-Web-App/mlweb3/__init__.py
 export FLASK_ENV=development
 flask run
 ```
