@@ -28,11 +28,4 @@ Browse to mlweb3/uploads and upload your image.
 The algorithm will classify the image as one of the labels with ~90% confidence.  
 
 
-Trained via Sequential Model CNN with [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).<br />
-<br />
-<p align="center">
-Sequential Model CNN
-</p>
-<p align="center">
-  <img width="250" height="504" src="https://github.com/MattLondon101/Images/blob/master/sequentialCNN.png?raw=true"
-</p>
+Trained via Sequential Model CNN with [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).
